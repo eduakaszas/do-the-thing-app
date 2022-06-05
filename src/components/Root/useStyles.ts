@@ -1,3 +1,5 @@
-export const useStyles: any = {
+import { createUseStyles } from 'react-jss'
+
+export const useStyles = createUseStyles({
   container: {},
-};
+});
